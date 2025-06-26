@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # ==================== Entrenamiento del modelo ====================
-excel_path = r"C:\Users\USER\Downloads\base_de_datos_app.xlsx"
+excel_path = "base_de_datos_app.xlsx"
 
 # Cargar los datos
 data = pd.read_excel(excel_path)
